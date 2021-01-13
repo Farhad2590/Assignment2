@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+a{
+	text-decoration: none;
+}
+.header{
+	background-color: black;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.header ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+.header ul li a{
+	color: white;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header ul li a:hover{
+	color: tomato;
+}
+
+.newsletter{
+	background-color: #f5f5f5;
+	padding-top: 80px;
+	padding-bottom: 80px; 
+	text-align: center;
+	padding: 80px;
+}
+
+.newsletter_container{
+	width: 1140px;
+	margin: auto;
+	padding: 10px;
+}
+
+.newsletter h1{
+	font-size: 40px;
+	color: #2F323A;
+	font-weight: 600;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.newsletter form{
+	margin-bottom: 26.25px;
+}
+.newsletter p{
+	font-size: 15px;
+	margin-bottom: 26.25px;
+	color: #6F6F6F;
+	font-family: 'Poppins', sans-serif;
+}
+.name{
+	width: 30%;
+	padding: 15px;
+	background-color: transparent;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+}
+.email{
+	width: 30%;
+	padding: 15px;
+	background-color: transparent;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+}
+.singnup{
+	width: 12%;
+	padding: 15px;
+	background-color: black;
+	color: white;
+	border: none;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+}
+.singnup:hover{
+	background-color: tomato;
+	border: 1px solid tomato;
+	cursor: pointer;
+}
+
+.from{
+	margin-top: 50px;
+}
+.talk{
+	background-color: #EEEEEE;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+.talk h1{
+	font-size: 40px;
+	color: #2F323A;
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.container1{
+	width: 1140px;
+	margin: auto;
+}
+.talk_container p{
+	font-size: 15px;
+	margin-bottom: 26.25px;
+	color: #6F6F6F;
+	font-family: 'Poppins', sans-serif;
+}
+.name1{
+	margin-right: 5%;
+	width: 30%;
+	padding: 15px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+
+}
+.email1{
+	width: 30%;
+	padding: 15px;
+	margin-left: 10px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+}
+.subject{
+	margin-right: 5%;
+	width: 30%;
+	padding: 15px;
+	margin-top: 15px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+
+}
+.phone{
+	width: 30%;
+	padding: 15px;
+	margin-left: 10px;
+	margin-top: 15px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+}
+.message{
+	width: 67%;
+	padding-bottom: 250px;
+	margin-top: 15px;
+	padding-top: 20px;
+	padding-left: 20px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.sendmessage{
+	width: 12%;
+	padding: 15px;
+	margin-top: 15px;
+	background-color: black;
+	color: white;
+	border: none;
+	border: 1px solid black;
+	margin-right: 55%;
+    cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+
+}
